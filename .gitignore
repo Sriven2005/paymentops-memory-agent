@@ -1,0 +1,35 @@
+# Local credentials and environment files. Keep only the safe template.
+.env
+.env.*
+!.env.example
+
+# Python environments, bytecode, and test/type/lint caches.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local service data, databases, and logs.
+.hindsight/
+.cache/
+.data/
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Build output and local editor/OS state.
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

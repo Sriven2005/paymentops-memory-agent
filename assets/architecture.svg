@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">From Stateless Payments to Hindsight-Powered Memory</title>
+  <desc id="desc">Architecture showing a synthetic payment incident sent to a FastAPI agent, which can produce a baseline or retain and recall from a persistent Hindsight memory bank before returning evidence-based guidance.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1L11 6 1 11" fill="none" stroke="#667771" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <style>
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}.title{font-size:42px;font-weight:700;fill:#1c2926}.sub{font-size:20px;fill:#65736e}.label{font-size:14px;font-weight:700;letter-spacing:1.6px;fill:#17634f}.head{font-size:21px;font-weight:700;fill:#1c2926}.body{font-size:16px;fill:#5c6a64}.small{font-size:13px;fill:#65736e}.line{stroke:#73817b;stroke-width:2;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#f4f6f3"/>
+  <rect x="0" y="0" width="1600" height="14" fill="#17634f"/>
+  <text class="sans label" x="96" y="91">PAYMENTOPS MEMORY AGENT</text>
+  <text class="sans title" x="96" y="151">From Stateless Payments to</text>
+  <text class="sans title" x="96" y="200">Hindsight-Powered Memory</text>
+  <text class="sans sub" x="96" y="244">A PaymentOps agent that learns from previous failures</text>
+
+  <rect x="80" y="320" width="330" height="176" rx="8" fill="#fff" stroke="#d8e1dc" stroke-width="2"/>
+  <rect x="80" y="320" width="7" height="176" rx="3" fill="#b16b27"/>
+  <text class="sans label" x="112" y="360" fill="#a45b13">CURRENT INCIDENT</text>
+  <text class="sans head" x="112" y="401">Stripe timeout</text>
+  <text class="sans body" x="112" y="432">Store B · INR 3,800</text>
+  <text class="sans small" x="112" y="466">Synthetic payment context</text>
+
+  <path class="line" d="M410 408H488"/>
+  <rect x="500" y="320" width="330" height="176" rx="8" fill="#fff" stroke="#b8d4c8" stroke-width="2"/>
+  <rect x="500" y="320" width="7" height="176" rx="3" fill="#17634f"/>
+  <text class="sans label" x="532" y="360">PAYMENTOPS AGENT</text>
+  <text class="sans head" x="532" y="401">FastAPI workflow</text>
+  <text class="sans body" x="532" y="432">Baseline or memory-aware</text>
+  <text class="sans small" x="532" y="466">Python · Hindsight client</text>
+
+  <path class="line" d="M830 385H914"/>
+  <path class="line" d="M830 439H914"/>
+  <text class="sans small" x="844" y="371">retain / recall</text>
+  <rect x="928" y="320" width="320" height="176" rx="8" fill="#e5f2ed" stroke="#9fc9b6" stroke-width="2"/>
+  <text class="sans label" x="960" y="360">PERSISTENT MEMORY</text>
+  <text class="sans head" x="960" y="401">Hindsight bank</text>
+  <text class="sans body" x="960" y="432">Store A's prior resolution</text>
+  <text class="sans small" x="960" y="466">Actual retain + recall API calls</text>
+
+  <path class="line" d="M1248 408H1320"/>
+  <rect x="1332" y="320" width="190" height="176" rx="8" fill="#fff" stroke="#d8e1dc" stroke-width="2"/>
+  <text class="sans label" x="1352" y="360">RESULT</text>
+  <text class="sans head" x="1352" y="401">Guidance</text>
+  <text class="sans body" x="1352" y="432">with evidence</text>
+  <text class="sans small" x="1352" y="466">Operator reviews</text>
+
+  <rect x="80" y="568" width="690" height="176" rx="8" fill="#fff8ee" stroke="#ead5b8" stroke-width="2"/>
+  <text class="sans label" x="112" y="610" fill="#a45b13">WITHOUT MEMORY</text>
+  <text class="sans head" x="112" y="650">Current incident only</text>
+  <text class="sans body" x="112" y="683">Check processor status and logs; reconcile before retrying.</text>
+  <text class="sans small" x="112" y="715">The baseline does not query Hindsight.</text>
+
+  <rect x="800" y="568" width="722" height="176" rx="8" fill="#eef6f2" stroke="#b8d4c8" stroke-width="2"/>
+  <text class="sans label" x="832" y="610">WITH HINDSIGHT</text>
+  <text class="sans head" x="832" y="650">Prior timeout resolution recalled</text>
+  <text class="sans body" x="832" y="683">Compare processor behavior; investigate before retrying the same route.</text>
+  <text class="sans small" x="832" y="715">Advice is evidence-informed; no payment is routed automatically.</text>
+
+  <line x1="96" y1="800" x2="1504" y2="800" stroke="#d8e1dc" stroke-width="2"/>
+  <text class="sans small" x="96" y="840">Synthetic incidents · Hindsight chunks mode · Deterministic guidance by default · Optional LLM wording</text>
+  <text class="sans small" x="1504" y="840" text-anchor="end">PAYMENTOPS MEMORY AGENT</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Payment agent that remembers</title>
+  <desc id="desc">A payment timeout investigation moves from a generic response to evidence-informed guidance after Hindsight recalls a prior processor resolution.</desc>
+  <defs>
+    <style>.sans{font-family:Inter,Segoe UI,Arial,sans-serif}.big{font-size:68px;font-weight:800;fill:#f6f8f6}.small{font-size:23px;font-weight:650;fill:#b9d6ca}.cap{font-size:17px;font-weight:750;letter-spacing:1.4px;fill:#98b3a8}.mid{font-size:19px;font-weight:700;fill:#f6f8f6}.fine{font-size:16px;fill:#bdd0c8}</style>
+    <marker id="a" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M1 1L10 5.5 1 10" fill="none" stroke="#a6c945" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <rect width="1280" height="720" fill="#182a25"/>
+  <rect x="0" y="0" width="14" height="720" fill="#a6c945"/>
+  <text class="sans cap" x="68" y="77">PAYMENTOPS MEMORY AGENT</text>
+  <text class="sans big" x="64" y="177">PAYMENT AGENT</text>
+  <text class="sans big" x="64" y="254">THAT REMEMBERS</text>
+  <text class="sans small" x="69" y="299">Hindsight Memory</text>
+
+  <rect x="68" y="368" width="315" height="210" rx="8" fill="#243b33" stroke="#526b5d" stroke-width="2"/>
+  <text class="sans cap" x="98" y="412">CURRENT FAILURE</text>
+  <text class="sans mid" x="98" y="458">Stripe timeout</text>
+  <text class="sans fine" x="98" y="493">Store B · INR 3,800</text>
+  <text class="sans fine" x="98" y="542">Investigate this attempt</text>
+
+  <path d="M383 473H474" stroke="#a6c945" stroke-width="3" fill="none" marker-end="url(#a)"/>
+  <rect x="488" y="368" width="315" height="210" rx="8" fill="#243b33" stroke="#526b5d" stroke-width="2"/>
+  <text class="sans cap" x="518" y="412">HINDSIGHT RECALL</text>
+  <text class="sans mid" x="518" y="458">Similar prior case</text>
+  <text class="sans fine" x="518" y="493">Stripe timeout · Store A</text>
+  <text class="sans fine" x="518" y="542">Resolved via another processor</text>
+
+  <path d="M803 473H894" stroke="#a6c945" stroke-width="3" fill="none" marker-end="url(#a)"/>
+  <rect x="908" y="368" width="305" height="210" rx="8" fill="#eaf2dd"/>
+  <text class="sans cap" x="938" y="412" fill="#386147">INVESTIGATION</text>
+  <text class="sans mid" x="938" y="458" fill="#1c342a">Check processor</text>
+  <text class="sans mid" x="938" y="487" fill="#1c342a">behavior before retry</text>
+  <text class="sans fine" x="938" y="542" fill="#527063">Evidence informs; operator decides</text>
+  <text class="sans fine" x="68" y="656">Synthetic incidents · real Hindsight retain + recall · no payment is processed</text>
+</svg>
